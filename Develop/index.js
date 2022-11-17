@@ -54,6 +54,11 @@ inquirer
       choices: ["MIT", "Apache", "unlicense"],
     },
     {
+        type: "input",
+        name: "github",
+        message: "input Github Profile "
+    },
+    {
       type: "input",
       name: "email",
       message: "Input Email for Submitting Questions or Comments:",

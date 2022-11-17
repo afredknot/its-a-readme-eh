@@ -19,8 +19,10 @@ const licenseBadgeLinks = {
 
 // TODO: Create a function to generate markdown for README
 function generateREADME(answers) {
+ 
   answers.licenseBadge = licenseBadgeLinks[answers.license];
-  return `# ${answers.title}
+  return   `## Title 
+  ${answers.project}
 ${answers.licenseBadge}
 ## Description
 ${answers.description}
@@ -47,6 +49,8 @@ How to test:
 ~~~
 ${answers.tests}
 ~~~
+## Repo location
+${answers.github}
 ## Questions
 Questions about this repository? Please contact me at [${answers.email}](mailto:${answers.email}).`;
 }

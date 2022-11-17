@@ -1,7 +1,7 @@
-# undefined
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## Title Generate a professional readme
+undefined
 ## Description
-create a professional readme file
+use terminal and js to generate a professional readme
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -12,12 +12,12 @@ create a professional readme file
 ## Installation
 To install app, run the following:
 ~~~
-clone repo into terminal, open vs code, go back to terminal, type to terminal npm init and npm i inquirer, then once those have installed  type node index.js and you will have the readme generator populate in your terminal with prompts that you need to fillout to generate your readme.
+clone repo, open vs code, cd into folder and type npm init and npm i inquirer to install the needed tools to run this file. then you can take and run the generator, answer prompts and then you  will have a generated reame me file
 ~~~
 ## Usage
-answer your prompts to be able to generate your readme file
+use in terminal and vs code 
 ## License
-MIT 
+unlicense 
 ## Contributing
 undefined
 ## Tests
@@ -25,5 +25,7 @@ How to test:
 ~~~
 undefined
 ~~~
+## Repo location
+https://github.com/afredknot/its-a-readme-eh
 ## Questions
 Questions about this repository? Please contact me at [afredknot@gmail.com](mailto:afredknot@gmail.com).
