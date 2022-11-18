@@ -22,6 +22,8 @@ clone repo to terminal, install nmp inquirer and nmp init, then you can run the 
 ~~~
 ## Usage
 answer promts after you have the generator cloned, extra files installed and terminal open.
+here is a link to a video walkthrough 
+https://drive.google.com/file/d/1YzWT5W5cG5w4c6f7TSa3aIvhpVvi9HhB/view
 ## License
 MIT 
 ## Contributing
