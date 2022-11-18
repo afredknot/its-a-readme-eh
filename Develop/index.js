@@ -1,15 +1,5 @@
 // // TODO: Include packages needed for this application
 
-
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();
-
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateREADME = require("./utils/generateMarkdown.js");
@@ -30,7 +20,7 @@ inquirer
     {
       type: "input",
       name: "installation",
-      message: "Please enter installion instructions:",
+      message: "Please enter installation instructions:",
     },
     {
       type: "input",
@@ -39,12 +29,12 @@ inquirer
     },
     {
       type: "input",
-      name: "contribution",
-      message: "Please enter contribution instructions:",
+      name: "contribute",
+      message: "Please direct contribution instructions:",
     },
     {
       type: "input",
-      name: "test",
+      name: "tests",
       message: "Please enter testing instructions:",
     },
     {
@@ -65,10 +55,9 @@ inquirer
     },
   ])
 //   Create a function to write README file
-  .then((answers) => {
-    fs.writeFile("README.md", generateREADME(answers), (err) =>
+  .then((info) => {
+    fs.writeFile("README.md", generateREADME(info), (err) =>
       err ? console.log(err) : console.log("Successfully created README.md!")
     );
   });
-
 

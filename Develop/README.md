@@ -1,31 +1,34 @@
-## Title Generate a professional readme
+# Title 
+  README
+
 undefined
 ## Description
-use terminal and js to generate a professional readme
+generate a professional readme file for a git or other repository
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
+* [Github](#github)
 * [Questions](#questions)
 ## Installation
 To install app, run the following:
 ~~~
-clone repo, open vs code, cd into folder and type npm init and npm i inquirer to install the needed tools to run this file. then you can take and run the generator, answer prompts and then you  will have a generated reame me file
+install by downloading and cloning the repo into a local folder install npm inquirer and also npm init
 ~~~
 ## Usage
-use in terminal and vs code 
+to use type node index.js into the terminal to run and the answer prompts
 ## License
 unlicense 
 ## Contributing
-undefined
+if you would like to contribute go to my email section and shoot me an email to let me know 
 ## Tests
 How to test:
 ~~~
-undefined
+to test see install and usage
 ~~~
-## Repo location
-https://github.com/afredknot/its-a-readme-eh
+## Github Repository where this app is stored
+https://github.com/afredknot
 ## Questions
 Questions about this repository? Please contact me at [afredknot@gmail.com](mailto:afredknot@gmail.com).

@@ -1,10 +1,4 @@
-// // TODO: Create a function that returns a license badge based on which license is passed in
-// // If there is no license, return an empty string
-// function renderLicenseBadge(license) {}
 
-// // TODO: Create a function that returns the license link
-// // If there is no license, return an empty string
-// function renderLicenseLink(license) {}
 
 
 // TODO: Create a function that returns the license section of README
@@ -15,14 +9,19 @@ const licenseBadgeLinks = {
     "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
   Unlicense:
     "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)",
+
 };
 
 // TODO: Create a function to generate markdown for README
+
 function generateREADME(answers) {
- 
+  
+ // // TODO: Create a function that returns a license badge based on which license is passed in
+// // If there is no license, return an empty string
   answers.licenseBadge = licenseBadgeLinks[answers.license];
-  return   `## Title 
+  return   `# Title 
   ${answers.project}
+
 ${answers.licenseBadge}
 ## Description
 ${answers.description}
@@ -32,6 +31,7 @@ ${answers.description}
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
+* [Github](#github)
 * [Questions](#questions)
 ## Installation
 To install app, run the following:
@@ -49,8 +49,8 @@ How to test:
 ~~~
 ${answers.tests}
 ~~~
-## Repo location
-${answers.github}
+## Github Repository where this app is stored
+https://github.com/${answers.github}
 ## Questions
 Questions about this repository? Please contact me at [${answers.email}](mailto:${answers.email}).`;
 }
